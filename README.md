@@ -12,9 +12,10 @@
 - 💬 Ask me about **Web Development**
 
 - 📫 How to reach me:
-  - <a href="https://www.linkedin.com/in/easwar-harikaran-07764321b/"> LinkedIn <img align="left" alt="Easwar's LinkedIn" width="22px" src="linkedin.svg" /></a>
+  - **:**<img align="left" alt="Easwar's LinkedIn" width="22px" src="linkedin.svg" /> <a href="https://www.linkedin.com/in/easwar-harikaran-07764321b/">LinkedIn </a>
+  - **:**<img align="left" alt="Easwar's LinkedIn" width="22px" src="Gmail_icon_(2020).svg.png" /> easwarharikaran1610@gmail.com
 
-- 📄<a href="https://drive.google.com/file/d/11QuMfPmAjE3CoWMIcVKbqJuRFSeLX86w/view?usp=sharing"> Resume </a>
+- 📄 Know about my experiences -(Portfolio website in the making)
 
 - 😄 Pronouns: **He / Him 👨‍💼**
 
