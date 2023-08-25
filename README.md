@@ -1,6 +1,6 @@
 <h1 align="center">Hello there👋, I'm Easwar H</h1>
 <code><img height="" src="cover.png"></code>
-<h3 align="center">👨‍💻 Coding Dreams into Reality | Frontend Lover, Full Stack Craftsman | Building Digital Experiences 🌟</h3>
+<h3 align="center">👨‍💻 Coding Dreams into Reality | Frontend Enthusiast, Full Stack 🌟</h3>
 
 - 🔭 I’m currently working on React<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>Redux <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"></code>
 **& Node <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>**
@@ -21,6 +21,7 @@
 
 </p>
 ⚡ My Most Used Language
+
  <p  align="left" style="float:right" float="right">  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=easwar16&show_icons=true&theme=dark&locale=en&layout=compact" alt="Easwar's Top Languages" >
 
 📈 My Github stats
