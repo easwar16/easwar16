@@ -21,9 +21,9 @@
 
 </p>
 ⚡ My Most Used Language
- <p  align="left" style="float:right" float="right">  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=easwar16&show_icons=true&locale=en&layout=compact" alt="Easwar's Top Languages" >
+ <p  align="left" style="float:right" float="right">  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=easwar16&show_icons=true&theme=dark&locale=en&layout=compact" alt="Easwar's Top Languages" >
 
 📈 My Github stats
 
-<p align="left" style="float:left" float="left"> <img src="https://github-readme-stats.vercel.app/api?username=easwar16&show_icons=true&locale=en" alt="Madhav's Stats" />
+<p align="left" style="float:left" float="left"> <img src="https://github-readme-stats.vercel.app/api?username=easwar16&show_icons=true&theme=dark&locale=en" alt="Madhav's Stats" />
   
