@@ -30,16 +30,3 @@
 
 <p align="left" style="float:left" float="left"> <img src="https://github-readme-stats.vercel.app/api?username=easwar16&show_icons=true&locale=en" alt="Madhav's Stats" />
   
-⚡ My Most Used Language
-<br/>
-<p align="left" style="float:right" float="right">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=easwar16&show_icons=true&locale=en&layout=compact" alt="easwar16" />
-</p>
-<br/>
-
-📈 My Github stats
-<br/>
-<p align="left" style="float:left" float="left">&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=easwar16&show_icons=true&locale=en" alt="easwar16" />
-</p>
-<br/>
