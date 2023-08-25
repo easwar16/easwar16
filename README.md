@@ -1,8 +1,6 @@
-
 <h1 align="center">Hello there👋, I'm Easwar H</h1>
+<code><img height="" src="cover.png"></code>
 <h3 align="center">👨‍💻 Coding Dreams into Reality | Frontend Lover, Full Stack Craftsman | Building Digital Experiences 🌟</h3>
-![coding-programming](https://github.com/easwar16/easwar16/assets/96469808/dc0b2271-16ff-49fe-ac0e-3fbe4f256be5)
-
 
 - 🔭 I’m currently working on React<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>Redux <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"></code>
 **& Node <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>**
