@@ -1,7 +1,7 @@
 <h1 align="center">Hello there👋, I'm Easwar H</h1>
 <code><img height="" src="cover.png"></code>
 <h3 align="center">👨‍💻 Coding Dreams into Reality | Frontend Enthusiast, Full Stack 🌟</h3>
-<code><img align="right" alt="Coding" width="400" src="coding-programming.gif"></code>
+<code><img align="right" alt="Coding" width="400" src="dog-sit.gif"></code>
 - 🔭 I’m currently working on React<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>Redux <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"></code>
 **& Node <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>**
 
