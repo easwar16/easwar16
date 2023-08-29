@@ -1,4 +1,4 @@
-
+<h1 align="center">Hello there, I'm Easwar H</h1>
 <code><img height="" src="cover.jpg"></code>
 <h3 align="center">👨‍💻 Coding Dreams into Reality | Frontend Enthusiast, Full Stack 🌟</h3>
 <code><img align="right" alt="Coding" width="400" src="dog-sit.gif"></code>
