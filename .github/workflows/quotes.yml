@@ -1,0 +1,54 @@
+name: Dev Quote of the Day
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # runs daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch a random dev quote
+        uses: muesli/readme-scribe@master
+        id: quote
+        continue-on-error: true
+
+      - name: Update README with quote
+        run: |
+          QUOTE=$(curl -s https://api.quotable.io/random?tags=technology | jq -r '"> " + .content + "\n>\n> — *" + .author + "*"' 2>/dev/null)
+          if [ -z "$QUOTE" ] || [ "$QUOTE" = "null" ]; then
+            QUOTES=(
+              "> Talk is cheap. Show me the code.\n>\n> — *Linus Torvalds*"
+              "> First, solve the problem. Then, write the code.\n>\n> — *John Johnson*"
+              "> Code is like humor. When you have to explain it, it's bad.\n>\n> — *Cory House*"
+              "> Make it work, make it right, make it fast.\n>\n> — *Kent Beck*"
+              "> Simplicity is the soul of efficiency.\n>\n> — *Austin Freeman*"
+              "> Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\n>\n> — *Martin Fowler*"
+              "> Programming isn't about what you know; it's about what you can figure out.\n>\n> — *Chris Pine*"
+              "> The best error message is the one that never shows up.\n>\n> — *Thomas Fuchs*"
+              "> It's not a bug; it's an undocumented feature.\n>\n> — *Anonymous*"
+              "> Deleted code is debugged code.\n>\n> — *Jeff Sickel*"
+              "> If debugging is the process of removing bugs, then programming must be the process of putting them in.\n>\n> — *Edsger Dijkstra*"
+              "> The most disastrous thing that you can ever learn is your first programming language.\n>\n> — *Alan Kay*"
+            )
+            RANDOM_INDEX=$((RANDOM % ${#QUOTES[@]}))
+            QUOTE="${QUOTES[$RANDOM_INDEX]}"
+          fi
+
+          # Replace content between QUOTE markers
+          awk -v quote="$QUOTE" '
+            /<!-- QUOTE:START -->/ { print; printf "%b\n", quote; skip=1; next }
+            /<!-- QUOTE:END -->/ { skip=0 }
+            !skip { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git diff --quiet README.md || (git add README.md && git commit -m "Update daily dev quote" && git push)
