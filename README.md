@@ -12,6 +12,7 @@
 ### Dev Quote of the Day
 
 <!-- QUOTE:START -->
+%b
 <!-- QUOTE:END -->
 
 ---
