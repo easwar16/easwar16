@@ -1,5 +1,4 @@
 <h1 align="center">Hey there! I'm Easwar</h1>
----
 
 ### GitHub Stats
 
