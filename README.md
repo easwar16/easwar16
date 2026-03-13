@@ -4,5 +4,6 @@
 
 <p align="center">
   <i>"Talk is cheap. Show me the code."</i> — Linus Torvalds
+  <br/>
   <i>"Code is cheap. Show me the Prompt."</i> — Easwar
 </p>
